@@ -2,6 +2,11 @@
   "name": "@neospacetech/neosuite-commons",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
   "author": "",
   "license": "ISC",
   "keywords": [],
@@ -12,6 +17,7 @@
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-native": "0.79.2",
-    "twrnc": "^4.6.1"
+    "twrnc": "^4.6.1",
+    "typescript": "^5.8.3"
   }
 }
