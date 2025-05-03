@@ -1,0 +1,17 @@
+{
+  "name": "@neospacetech/neosuite-commons",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "@react-native-picker/picker": "^2.11.0",
+    "iconsax-react-nativejs": "^0.0.8",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.2",
+    "twrnc": "^4.6.1"
+  }
+}
