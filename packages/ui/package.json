@@ -1,0 +1,43 @@
+{
+  "name": "@neospacetech/neosuite-ui",
+  "version": "0.0.0",
+  "description": "Adaptive, accessible React Native components for NeoSuite clients (iOS, Android, web, desktop and TV).",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neospacetech/neosuite-commons.git",
+    "directory": "packages/ui"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "react-native": "src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "files": [
+    "src",
+    "!src/**/*.test.ts",
+    "!src/**/*.test.tsx"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@neospacetech/neosuite-tokens": "0.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=19.0.0",
+    "react-native": ">=0.79.0",
+    "react-native-web": ">=0.20.0"
+  },
+  "peerDependenciesMeta": {
+    "react-native-web": {
+      "optional": true
+    }
+  }
+}
