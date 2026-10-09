@@ -1,0 +1,22 @@
+{
+  "name": "@neospacetech/neosuite-commons",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "@react-native-picker/picker": "^2.11.0",
+    "iconsax-react-nativejs": "^0.0.8",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.2",
+    "twrnc": "^4.6.1",
+    "typescript": "^5.8.3"
+  }
+}
